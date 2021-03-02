@@ -73,7 +73,7 @@ if (currentTheme) {
 
     if (currentTheme === DARK_THEME) {
         toggleSwitch.checked = true; 
-        toggleDarkLightMode('dark'); 
+        toggleDarkLightMode(true); 
     }
 }
 
